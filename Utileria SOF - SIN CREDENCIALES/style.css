@@ -1,0 +1,115 @@
+/* Estilo general para la ventana */
+QWidget {
+    background-color: steelblue;
+    font-family: Verdana;
+}
+
+QLineEdit {
+    background-color: white;
+    color: black;
+    font-size: 10pt;
+    font-family: Verdana;
+    border: 2px solid black;
+    padding: 7px;
+}
+
+/* Estilo para los botones */
+QPushButton {
+    background-color: white;
+    color: black;
+    font-size: 10pt;
+    font-family: Verdana;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 1px;
+}
+
+QPushButton:hover {
+    background-color: lightgray;
+}
+
+/* Estilo para los botones */
+QPushButtonBack {
+    background-color: white;
+    color: black;
+    font-size: 10pt;
+    font-family: Verdana;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 2px;
+}
+
+QPushButtonBack:hover {
+    background-color: lightgray;
+}
+
+/* Estilo para los botones */
+QPushButtonImage {
+    background-color: white;
+    color: black;
+    font-size: 10pt;
+    font-family: Verdana;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 2px;
+}
+
+/* Estilo para QLabel */
+QLabel {
+    color: white;
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+/* Layouts y espaciadores */
+QVBoxLayout, QHBoxLayout, QGridLayout {
+    margin: 10px;
+    padding: 10px;
+}
+
+QDateEdit {
+    background-color: white;
+    color: black;
+    font: 10pt "Verdana";
+    width: 150px;
+}
+
+QCalendarWidget { /* Cambia el color del fondo y texto del calendario */
+    background-color: white;
+    color: black;
+}
+
+QCalendarWidget QAbstractItemView { /* Cambia el color de fondo donde se muestran los dias de calendario */
+    background-color: white;
+    selection-background-color: lightblue;
+    selection-color: black;
+}
+
+QCalendarWidget
+    Qwidget#qt_calendar_navigationbar { /* Cambia el color de la barra de navegación de calendario, donde esta el mes y dia */
+        background-color: lightgray;
+        color: black;
+    }
+
+QComboBox {
+    background-color: white;
+    color: black;
+    height: 40px;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+QComboBox QAbstractItemView { /* Cambia el color de fondo donde se muestran los dias de calendario */
+    background-color: white;
+    selection-background-color: lightblue;
+    selection-color: black;
+}
+
+QTextEdit {
+    background-color: white;
+    color: black;
+}
